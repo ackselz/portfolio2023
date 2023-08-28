@@ -13,29 +13,26 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
     return (
-        <>
-            {/* <OpenGraphImg /> */}
-            <main className="min-h-screen flex flex-row justify-center">
-                <div className="max-w-5xl">
-                    <Nav />
-                    <div className="flex flex-col gap-6 px-8">
-                        <Hero />
-                        <Separator />
-                        <About />
-                        <Separator />
-                        {/* <Education />
+        <main className="min-h-screen flex flex-row justify-center">
+            <div className="max-w-5xl">
+                <Nav />
+                <div className="flex flex-col gap-6 px-8">
+                    <Hero />
+                    <Separator />
+                    <About />
+                    <Separator />
+                    {/* <Education />
                     <Separator /> */}
-                        <Experience />
-                        <Separator />
-                        <Projects />
-                        <Separator />
-                        <Awards />
-                        <Separator />
-                        <Skills />
-                    </div>
-                    <Footer />
+                    <Experience />
+                    <Separator />
+                    <Projects />
+                    <Separator />
+                    <Awards />
+                    <Separator />
+                    <Skills />
                 </div>
-            </main>
-        </>
+                <Footer />
+            </div>
+        </main>
     );
 }

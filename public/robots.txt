@@ -4,4 +4,4 @@ Disallow: /assets
 
 # Allow all crawlers
 User-agent: *
-Allow: /
+Allow: /og.png
