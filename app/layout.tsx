@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Shao Chong Tan's Portfolio",
         description: "About me.",
-        url: "https://shaochong.dev",
+        // url: "https://shaochong.dev",
         siteName: "Shao Chong Tan",
         images: [
             {
