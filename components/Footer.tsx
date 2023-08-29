@@ -1,3 +1,5 @@
+import { links } from "@/data";
+
 const Footer = () => {
     return (
         <footer>
@@ -6,7 +8,7 @@ const Footer = () => {
                     <p className="text-center text-sm leading-loose md:text-left">
                         Built by{" "}
                         <a
-                            href=""
+                            href="https://www.linkedin.com/in/tan-shao-chong/"
                             target="_blank"
                             rel="noreferrer"
                             className="font-medium underline underline-offset-4"

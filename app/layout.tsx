@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         siteName: "Shao Chong Tan",
         images: [
             {
-                url: "/og.png",
+                url: "/og-padded.png",
                 width: 1920,
                 height: 208,
             },

@@ -35,6 +35,7 @@ const Experience = () => {
                                 >
                                     <AvatarImage
                                         src={experience.image.url}
+                                        alt={`${experience.company} logo`}
                                         className="object-contain"
                                     />
                                 </Avatar>

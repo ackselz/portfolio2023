@@ -10,7 +10,11 @@ const About = () => {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-6 place-items-center">
                 <div className="rounded-full h-48 w-48 bg-primary-foreground border border-primary overflow-hidden flex justify-center">
-                    <Image src={portraitPic} alt="" className="object-cover" />
+                    <Image
+                        src={portraitPic}
+                        alt="portrait"
+                        className="object-cover"
+                    />
                 </div>
                 <ul className="ml-6 list-disc [&>li]:mt-2">
                     {about.map((line, index) => {
