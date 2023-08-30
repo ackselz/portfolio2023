@@ -1,8 +1,16 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Zilla_Slab } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+    subsets: ["latin"],
+    variable: "--font-inter",
+});
+export const zilla_slab = Zilla_Slab({
+    subsets: ["latin"],
+    weight: "600",
+    variable: "--font-zilla-slab",
+});
 
 export const metadata: Metadata = {
     title: "Shao Chong Tan",
@@ -31,7 +39,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={`${inter.variable} ${zilla_slab.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }

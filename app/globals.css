@@ -59,3 +59,11 @@
         @apply bg-background text-foreground;
     }
 }
+
+* {
+    font-family: var(--font-inter);
+}
+
+h2 {
+    font-family: var(--font-zilla-slab);
+}
