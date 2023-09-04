@@ -13,6 +13,7 @@ const About = () => {
                     <Image
                         src={portraitPic}
                         alt="portrait"
+                        title="Profile Picture"
                         height={192}
                         width={192}
                         className="object-cover"
