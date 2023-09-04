@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
         desc: [
             "6-month internship with Asurion's Asia-Pacific Innovation team, and I worked mostly using TypeScript (React), Node.js, AWS and Terraform.",
             "My responsibilities include building SaaS products which integrate machine learning (real-time object detection, face detection, generative AI) for a multitude of applications.",
-            "Significant contributions also include the adoption of visual documentation, refactoring of legacy code and upgrading our web architecture.",
+            "Significant contributions also include spearheading the adoption of visual documentation, refactoring of legacy code and upgrading our web architecture.",
         ],
     },
     {
@@ -171,16 +171,15 @@ export const awards: Award[] = [
         year: "2022",
         name: "Nanyang Technological University",
         link: "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/reps",
-        desc: "Selected into the University's flagship engineering programme. Awarded the highly coveted Renaissance Engineering Programme Scholarship for holistic excellence.",
+        desc: "Selected into the University's flagship Renaissance Engineering Programme (REP). Awarded the highly coveted REP Scholarship for holistic excellence.",
         award: "Renaissance Engineering Scholar",
     },
 ];
 
 export const skills:string[] = [
-    "I started out my journey in frontend web development, and I have experience building websites using React, as well as the meta-frameworks built around it. I prefer to use Next.js and TypeScript.",
-    "On the backend, I build projects with a variety of languages and frameworks, ranging from Node.js, to Python.",
-    "I am also deeply interested in software architecture and making sure they are scalable. I prefer to find the right tool for the job, instead of trying to force-fit microservices into every project I do.",
-    "I have also recently tried out prompt engineering, a passion fueled by the arrival of ChatGPT, the release of Meta's LLM, Llama2, and the rising popularity of LangChain.",
+    "I began my journey in frontend web development, and I have experience building websites using React, as well as the meta-frameworks built around it. My preferred tools are Next.js, TypeScript and Tailwind.",
+    "As I began to work on more complicated projects, I picked up a variety of backend languages and frameworks. I am comfortable working in Node.js and Python.",
+    "I have professional experience and a keen interest in designing and building AI-powered products. It excites me to be able to provide a platform for the layperson to interact with advanced machine learning models, empowering them with technology",
 ];
 
 export const stacks:Stack[] = [
@@ -190,7 +189,7 @@ export const stacks:Stack[] = [
     },
     {
         name: "frontend",
-        skills: ["React.js", "Next.js"]
+        skills: ["React.js", "Next.js", "Tailwind.css"]
     },
     {
         name: "backend",
