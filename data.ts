@@ -35,10 +35,9 @@ export type Award = {
 };
 
 export type Stack = {
-    name:string,
-    skills:string[]
+    name: string;
+    skills: string[];
 };
-
 
 export const links: Link[] = [
     {
@@ -55,13 +54,14 @@ export const links: Link[] = [
     },
 ];
 
-export const hero:string = "Full-Stack Software Engineer proficient across front-end and back-end. Interested in building products, design systems and user experience."
+export const hero: string =
+    "Full-Stack Software Engineer proficient across front-end and back-end. Interested in building products, design systems and user experience.";
 
-export const about:string[] = [
+export const about: string[] = [
     "I am in my second year of studying Computer Science at Nanyang Technological University (NTU).",
     "I am a full-stack software engineer, with professional experience mostly in web development.",
-    "I have strong domain knowledge in product design, coupled with a keen understanding of business needs, allowing me to develop software that not only excels technically but also aligns seamlessly with strategic objectives."
-]
+    "I have strong domain knowledge in product design, coupled with a keen understanding of business needs, allowing me to develop software that not only excels technically but also aligns seamlessly with strategic objectives.",
+];
 
 export const experiences: Experience[] = [
     {
@@ -101,6 +101,13 @@ export const experiences: Experience[] = [
 ];
 
 export const projects: Project[] = [
+    {
+        year: "2023",
+        name: "Voyage",
+        link: "https://psa-voyage.vercel.app",
+        desc: "Integrated career development platform for goal tracking, generating insights from feedback and course recommendations, powered by OpenAI GPT-3.5.",
+        feat: true,
+    },
     // {
     //     year: "2023",
     //     name: "HindSight",
@@ -125,7 +132,7 @@ export const projects: Project[] = [
     {
         year: "2022",
         name: "Keep Fit",
-        link: "https://play.google.com/store/apps/details?id=com.toDoList",
+        link: "",
         desc: "Collaborated with a local school to build an application encouraging healthy living habits among students.",
         feat: false,
     },
@@ -146,6 +153,13 @@ export const projects: Project[] = [
 ];
 
 export const awards: Award[] = [
+    {
+        year: "2023",
+        name: "PSA CodeSprint 2023",
+        link: "",
+        desc: "Developed a career development platform powered by generative AI to nuture a future-ready workforce. Achieved 2nd place out of 83 teams from tertiary institutions in Singapore.",
+        award: "1st Runner-Up",
+    },
     {
         year: "2023",
         name: "NUS Medical Grand Challenge",
@@ -176,20 +190,20 @@ export const awards: Award[] = [
     },
 ];
 
-export const skills:string[] = [
+export const skills: string[] = [
     "I began my journey in frontend web development, and I have experience building websites using React, as well as the meta-frameworks built around it. My preferred tools are Next.js, TypeScript and Tailwind.",
     "As I began to work on more complicated projects, I picked up a variety of backend languages and frameworks. I am comfortable working in Node.js and Python.",
     "I have professional experience and a keen interest in designing and building AI-powered products. It excites me to be able to provide a platform for the layperson to interact with advanced machine learning models, empowering them with technology",
 ];
 
-export const stacks:Stack[] = [
+export const stacks: Stack[] = [
     {
         name: "languages",
-        skills: ["TypeScript", "Python"]
+        skills: ["TypeScript", "Python", "Java", "C"],
     },
     {
         name: "frontend",
-        skills: ["React.js", "Next.js", "Tailwind.css"]
+        skills: ["React.js", "Next.js", "Tailwind.css"],
     },
     {
         name: "backend",
@@ -200,7 +214,11 @@ export const stacks:Stack[] = [
         skills: ["AWS", "Terraform"],
     },
     {
+        name: "ai",
+        skills: ["OpenAI APIs"],
+    },
+    {
         name: "misc",
         skills: ["Figma", "Git"],
     },
-]
+];

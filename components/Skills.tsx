@@ -25,12 +25,12 @@ const Skills = () => {
                 </TabsContent>
                 <TabsContent
                     value="stack"
-                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+                    className="grid grid-cols-2 md:grid-cols-3"
                 >
                     {stacks.map((stack) => {
                         return (
                             <ul key={stack.name} className="ml-6 [&>li]:mt-2">
-                                <li className="text-primary underline">
+                                <li className="text-primary font-bold">
                                     {stack.name}
                                 </li>
                                 <ul className="list-disc">

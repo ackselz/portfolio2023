@@ -8,7 +8,7 @@ const Featured = ({ name, desc, link }: FeaturedProps) => {
     return (
         <a
             href={link}
-            className="group rounded-lg border px-5 py-4 transition-colors hover:border-primary hover:bg-primary-foreground"
+            className="group grid rounded-lg border px-5 py-4 transition-colors hover:border-primary hover:bg-primary-foreground"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -18,7 +18,7 @@ const Featured = ({ name, desc, link }: FeaturedProps) => {
                     -&gt;
                 </span>
             </h2>
-            <p className={`m-0 text-sm opacity-50`}>{desc}</p>
+            <p className={`m-0 text-sm opacity-50 `}>{desc}</p>
         </a>
     );
 };
