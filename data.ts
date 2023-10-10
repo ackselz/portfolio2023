@@ -108,6 +108,13 @@ export const projects: Project[] = [
         desc: "Integrated career development platform for goal tracking, generating insights from feedback and course recommendations, powered by OpenAI GPT-3.5.",
         feat: true,
     },
+    {
+        year: "2023",
+        name: "SG Tech Internships",
+        link: "https://techinternships.kxrt.me",
+        desc: "Lead frontend developer for internship seeking platform with over 50,000 page views, 200 GitHub Stars and 100 MAU (growing).",
+        feat: false,
+    },
     // {
     //     year: "2023",
     //     name: "HindSight",
