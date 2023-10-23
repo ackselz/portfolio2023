@@ -8,7 +8,7 @@ const Featured = ({ name, desc, link }: FeaturedProps) => {
     return (
         <a
             href={link}
-            className="group grid rounded-lg border px-5 py-4 transition-colors hover:border-primary hover:bg-primary-foreground"
+            className="group grid rounded-lg border px-5 py-4 transition-colors hover:border-primary hover:bg-primary-foreground bg-background"
             target="_blank"
             rel="noopener noreferrer"
         >

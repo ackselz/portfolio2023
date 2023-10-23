@@ -112,7 +112,7 @@ export const projects: Project[] = [
         year: "2023",
         name: "SG Tech Internships",
         link: "https://techinternships.kxrt.me",
-        desc: "Lead frontend developer for internship seeking platform with over 50,000 page views, 200 GitHub Stars and 100 MAU (growing).",
+        desc: "Lead frontend developer for internship seeking platform with over 100,000 page views, 200 GitHub Stars and 100 MAU (growing).",
         feat: false,
     },
     // {

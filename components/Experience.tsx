@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 
 import { experiences } from "@/data";
+import { cn } from "@/lib/utils";
 
 const Experience = () => {
     return (
@@ -42,11 +43,12 @@ const Experience = () => {
                                 <div className="border-[0.5px] w-0 h-full"></div>
                             </div>
                             <Card
-                                className={`${
+                                className={cn(
+                                    "transition-colors hover:border-primary hover:bg-primary-foreground ease-in-out hover:-translate-y-0.5 motion-reduce:transform-none",
                                     index != experiences.length - 1
                                         ? "mb-6"
                                         : ""
-                                }`}
+                                )}
                             >
                                 <CardHeader className="pb-2">
                                     <CardTitle className="break-normal leading-2 text-xl">

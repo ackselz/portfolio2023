@@ -31,13 +31,19 @@ const Projects = () => {
                                     {project.year}
                                 </span>
                                 &nbsp;—&nbsp;
-                                <a
-                                    href={project.link}
-                                    className="text-primary font-bold underline"
-                                    target="_blank"
-                                >
-                                    {project.name}
-                                </a>
+                                {project.link ? (
+                                    <a
+                                        href={project.link}
+                                        className="text-primary font-bold underline"
+                                        target="_blank"
+                                    >
+                                        {project.name}
+                                    </a>
+                                ) : (
+                                    <span className="text-primary font-bold underline">
+                                        {project.name}
+                                    </span>
+                                )}
                                 : {project.desc}
                             </p>
                         </li>
