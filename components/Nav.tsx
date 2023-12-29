@@ -5,7 +5,7 @@ import { links } from "@/data";
 const Nav = () => {
     return (
         <nav className="flex flex-col md:flex-row items-center justify-between py-4 px-8 gap-2">
-            <p className="scroll-m-20 text-3xl tracking-tight underline decoration-primary">
+            <p className="scroll-m-20 text-3xl tracking-tight underline decoration-primary text-nowrap">
                 Shao Chong Tan
             </p>
             <ul className="flex flex-row gap-2 justify-center items-center flex-wrap">
