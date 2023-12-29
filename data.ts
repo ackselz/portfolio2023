@@ -65,10 +65,27 @@ export const about: string[] = [
 
 export const experiences: Experience[] = [
     {
+        company: "NodeFlair",
+        link: "https://www.nodeflair.com/",
+        image: {
+            url: "/assets/nodeflair_logo.jpeg",
+            padding: 0,
+            colour: "bg-[#00cc5c]"
+        },
+        role: "Full Stack Engineer Intern",
+        start: "Dec 2023",
+        end: "Present",
+        location: "Singapore",
+        desc: [
+            "Ongoing internship with NodeFlair's engineering team, mostly using React, Ruby on Rails and OpenAI.",
+            "Building out new AI-powered features for their platform.",
+        ],
+    },
+    {
         company: "Asurion",
         link: "https://www.asurion.com.sg/",
         image: {
-            url: "https://media.licdn.com/dms/image/C560BAQHBMeQo1ZgB3g/company-logo_200_200/0/1625138294366?e=1701302400&v=beta&t=-pYr8m9vANotYP4TFZy3hXffCIDHKXQTroshOS8ve6c",
+            url: "/assets/asurion_logo.jpeg",
             padding: 0,
         },
         role: "Full Stack Engineer Intern",
@@ -76,7 +93,7 @@ export const experiences: Experience[] = [
         end: "Jul 2023",
         location: "Singapore",
         desc: [
-            "6-month internship with Asurion's Asia-Pacific Innovation team, and I worked mostly using TypeScript (React), Node.js, AWS and Terraform.",
+            "6-month internship with Asurion's Asia-Pacific Innovation team, and I worked mostly using TypeScript, React, Node.js, AWS and Terraform.",
             "My responsibilities include building SaaS products which integrate machine learning (real-time object detection, face detection, generative AI) for a multitude of applications.",
             "Significant contributions also include spearheading the adoption of visual documentation, refactoring of legacy code and upgrading our web architecture.",
         ],
@@ -85,16 +102,16 @@ export const experiences: Experience[] = [
         company: "DSTA",
         link: "https://www.dsta.gov.sg/home",
         image: {
-            url: "https://media.licdn.com/dms/image/C510BAQGBxsnmmhvsMg/company-logo_200_200/0/1521540217159?e=1700697600&v=beta&t=4cziEtG1fNyYCoYBZz3bUn-r8LESgLZBivwNabNiDTY",
+            url: "/assets/dsta_logo.jpeg",
             padding: 1,
-            colour: "#FFFFFF",
+            colour: "bg-white",
         },
         role: "Software Engineer Intern",
         start: "Feb 2022",
         end: "Jul 2022",
         location: "Singapore",
         desc: [
-            "5-month internship with DSTA's Enterprise IT division, and I worked mostly using JavaScript (React) and Qlik Sense.",
+            "5-month internship with DSTA's Enterprise IT division, and I worked mostly using JavaScript, React and Qlik Sense.",
             "My responsibilities include building custom data visualisation extensions for Qlik as well as responsive dashboards for data analytics.",
         ],
     },

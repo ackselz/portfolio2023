@@ -26,13 +26,11 @@ const Experience = () => {
                             <div className="sm:flex flex-col items-center hidden">
                                 <div className="border-[0.5px]  w-0 h-6"></div>
                                 <Avatar
-                                    className={`h-16 w-16 rounded-lg border shadow-sm place-self-center p-${
-                                        experience.image.padding
-                                    } ${
+                                    className={cn(
+                                        "h-16 w-16 rounded-lg border shadow-sm place-self-center",
+                                        `p-${experience.image.padding}`,
                                         experience.image.colour
-                                            ? `bg-[${experience.image.colour}]`
-                                            : ""
-                                    }`}
+                                    )}
                                 >
                                     <AvatarImage
                                         src={experience.image.url}
@@ -44,7 +42,7 @@ const Experience = () => {
                             </div>
                             <Card
                                 className={cn(
-                                    "transition-colors hover:border-primary hover:bg-primary-foreground ease-in-out hover:-translate-y-0.5 motion-reduce:transform-none",
+                                    "w-full transition ease-in-out duration-300 hover:border-primary hover:bg-primary-foreground hover:-translate-y-0.5 motion-reduce:transform-none",
                                     index != experiences.length - 1
                                         ? "mb-6"
                                         : ""
