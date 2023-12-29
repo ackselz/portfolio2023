@@ -8,13 +8,13 @@ const Featured = ({ name, desc, link }: FeaturedProps) => {
     return (
         <a
             href={link}
-            className="group grid rounded-lg border px-5 py-4 transition-colors hover:border-primary hover:bg-primary-foreground bg-background"
+            className="group grid rounded-lg border px-5 py-4 transition-colors ease-in-out duration-300 hover:border-primary hover:bg-primary-foreground bg-background"
             target="_blank"
             rel="noopener noreferrer"
         >
             <h2 className={`mb-3 text-2xl font-semibold`}>
                 {name}{" "}
-                <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                <span className="inline-block transition-transform ease-in-out duration-300 group-hover:translate-x-1 motion-reduce:transform-none">
                     -&gt;
                 </span>
             </h2>
