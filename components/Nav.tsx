@@ -27,7 +27,7 @@ const Nav = () => {
                 <li>
                     <Button asChild>
                         <Link
-                            href="/assets/ShaoChong_Tan_Resume.pdf"
+                            href="/assets/ShaoChong_Tan_Resume_Public.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
