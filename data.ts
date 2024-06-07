@@ -46,7 +46,7 @@ export const links: Link[] = [
     },
     {
         name: "GitHub",
-        url: "https://github.com/ackselz",
+        url: "https://github.com/tanshaochong",
     },
     {
         name: "LinkedIn",
@@ -65,20 +65,35 @@ export const about: string[] = [
 
 export const experiences: Experience[] = [
     {
+        company: "Rakuten Viki",
+        link: "https://www.viki.com/",
+        image: {
+            url: "/assets/viki_logo.jpeg",
+            padding: 0,
+        },
+        role: "Software Engineer Intern",
+        start: "May 2024",
+        end: "Present",
+        location: "Singapore",
+        desc: [
+            "Ongoing internship with Viki's Core Services team, working on the backend services that power the Viki platform.",
+            "Developing in Go and Ruby on Rails.",
+        ],
+    },
+    {
         company: "NodeFlair",
         link: "https://www.nodeflair.com/",
         image: {
             url: "/assets/nodeflair_logo.jpeg",
             padding: 0,
-            colour: "bg-[#00cc5c]"
         },
         role: "Full Stack Engineer Intern",
         start: "Dec 2023",
-        end: "Present",
+        end: "March 2024",
         location: "Singapore",
         desc: [
-            "Ongoing internship with NodeFlair's engineering team, mostly using React, Ruby on Rails and OpenAI.",
-            "Building out new AI-powered features for their platform.",
+            "4-month internship with NodeFlair's engineering team, mostly using React, Ruby on Rails and OpenAI.",
+            "Built out new AI-powered features for their platform.",
         ],
     },
     {
@@ -104,7 +119,7 @@ export const experiences: Experience[] = [
         image: {
             url: "/assets/dsta_logo.jpeg",
             padding: 1,
-            colour: "bg-white",
+            colour: "white",
         },
         role: "Software Engineer Intern",
         start: "Feb 2022",

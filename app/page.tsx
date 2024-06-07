@@ -29,7 +29,7 @@ export default function Home() {
                     <Separator />
                     <Awards />
                     <Separator />
-                    <Skills />
+                    {/* <Skills /> */}
                 </div>
                 <Footer />
             </div>

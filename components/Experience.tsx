@@ -29,7 +29,8 @@ const Experience = () => {
                                     className={cn(
                                         "h-16 w-16 rounded-lg border shadow-sm place-self-center",
                                         `p-${experience.image.padding}`,
-                                        experience.image.colour
+                                        experience.image.colour === "white" &&
+                                            "bg-white"
                                     )}
                                 >
                                     <AvatarImage
